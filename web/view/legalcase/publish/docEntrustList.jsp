@@ -107,7 +107,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>
@@ -133,7 +133,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>
@@ -159,7 +159,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>
@@ -185,7 +185,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>
@@ -211,7 +211,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>
@@ -237,7 +237,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>
@@ -263,7 +263,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>
@@ -289,7 +289,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>
@@ -315,7 +315,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>
@@ -341,7 +341,7 @@
                                             <span class="caret"></span>
                                         </a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="/view/legalcase/entrust/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
+                                            <li><a href="/view/legalcase/publish/docEntrustDetail.jsp?orderCode=D0001">查看详情</a></li>
                                             <li><a href="#">审核通过</a></li>
                                             <li><a href="#">不通过</a></li>
                                             <li><a href="#">结案</a></li>

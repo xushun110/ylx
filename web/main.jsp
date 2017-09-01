@@ -105,7 +105,7 @@
 									<i class="fa fa-users icon-xlg icon-info"></i>
 								</div>
 								<div class="bus-md-title">
-									<span>会员管理</span>
+									<span>律师管理</span>
 								</div>
 							</div>
 							<div class="bus-md">
@@ -113,7 +113,7 @@
 									<i class="fa fa-database icon-xlg icon-info"></i>
 								</div>
 								<div class="bus-md-title">
-									<span>会员管理</span>
+									<span>服务订单</span>
 								</div>
 							</div>
 							<div class="bus-md">
@@ -121,7 +121,7 @@
 									<i class="fa fa-database icon-xlg icon-info"></i>
 								</div>
 								<div class="bus-md-title">
-									<span>会员管理</span>
+									<span>预约订单</span>
 								</div>
 							</div>
 							<div class="bus-md">
@@ -129,7 +129,7 @@
 									<i class="fa fa-database icon-xlg icon-info"></i>
 								</div>
 								<div class="bus-md-title">
-									<span>会员管理</span>
+									<span>委托订单</span>
 								</div>
 							</div>
 							<div class="bus-md">
@@ -137,7 +137,7 @@
 									<i class="fa fa-gear icon-xlg icon-info"></i>
 								</div>
 								<div class="bus-md-title">
-									<span>会员管理</span>
+									<span>站点设置</span>
 								</div>
 							</div>
 						</div>

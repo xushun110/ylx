@@ -23,6 +23,7 @@
                 "p_case_entrust_list": "/view/legalcase/publish/caseEntrustList.jsp",
                 "p_doc_entrust_list": "/view/legalcase/publish/docEntrustList.jsp",
                 "p_entrust_add": "/view/legalcase/publish/addEntrust.jsp",
+                "case_clz_list": "/view/legalcase/clz/caseClzList.jsp",
             },
             "currentNav": "/"
         };
