@@ -30,7 +30,8 @@ jQuery(function(){
         //保存
         $('#btnSave').on('click', function () {
             var $this = $(this);
-            _ajax($this, '保存','/xxxx/add');
+            var reUrl ='http://120.76.101.46/ylx/api/entrusts.ajax';
+            _ajax($this, '保存',reUrl);
         });
 
         //返回
@@ -52,6 +53,7 @@ jQuery(function(){
                                 FOXKEEPER_UTILS.alert('success',result.msg);
                                 setTimeout(function(){
                                     location.replace('/xxxxxxx/goList');
+
                                 }, 1000);
                             }
                             else
