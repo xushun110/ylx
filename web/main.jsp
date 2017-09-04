@@ -68,6 +68,10 @@
 		.m-chart .lb h5{
 			display: inline-block;
 		}
+		/*.page-topbar .dropdown-menu:after, .page-topbar .dropdown-menu:before{
+			right: 22px;
+		}
+*/
 
 	</style>
 </head>

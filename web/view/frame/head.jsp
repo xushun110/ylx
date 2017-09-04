@@ -14,7 +14,6 @@
 <link href="/css/__base.min.css" rel="stylesheet">
 <script type="text/javascript" src="/js/__jq.js"></script>
 <script type="text/javascript">
-    var webBasePath = '${webBasePath}';
     var ___system_navigation_config = {
             "nav": {
                 "home_index": "/",
