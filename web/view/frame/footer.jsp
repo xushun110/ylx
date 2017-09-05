@@ -3,8 +3,8 @@
 <script type="text/javascript">
     $(function () {
 
+        debugger;
         var _target = $("#main-menu-wrapper .wraplist li ul>li a[href='" + ___system_navigation_config.currentNav + "']");
-        _target.unbind("click");
         _target.addClass("active");
         var $menuLi = _target.parent().parent().parent();
         $menuLi.addClass('open');
@@ -16,7 +16,7 @@
             $menuLiParents.parent().addClass('open');
             $menuLiParents.parent().children("a").find("span:last").addClass('open');
         }
-        /*$('#main-menu-wrapper li a').trigger("click");*/
+        $('#main-menu-wrapper li a').trigger("click");
     });
 
     $(document).ajaxError( function(event, jqXHR, options, errorMsg){
