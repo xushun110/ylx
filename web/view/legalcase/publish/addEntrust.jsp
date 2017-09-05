@@ -152,8 +152,10 @@
                                         <div class="col-xs-5" style="margin-left: -15px;">
                                             <div class="col-xs-1">
                                                 <div class="img-upload">
+                                                    <input type="hidden" id="coverUrl" value="" name="coverUrl"/>
+                                                    <img src="/images/nopica.png" class="img-thumbnail" id="coverImage" width="200px" style="display: none;"/>
                                                     <button id="btnSearch" type="button" class="btn btn-primary">点击添加或修改</button>
-                                                    <input type="file" class="img-upload-file">
+                                                    <input type="file" class="img-upload-file" id="lcimage_upload" name="lcimage_upload" mid="coverImage" uid="coverUrl">
                                                 </div>
                                                 <div>
                                                     <%--<img src="/images/nopica.png" class="" width="200px"/>--%>

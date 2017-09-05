@@ -13,7 +13,12 @@
 <!-- CSS Style -->
 <link href="/css/__base.min.css" rel="stylesheet">
 <script type="text/javascript" src="/js/__jq.js"></script>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8" charset="UTF-8"></script>
+
 <script type="text/javascript">
+    var clientIp = returnCitySN["cip"];
+    /*var webBasePath = "http://120.76.101.46/ylx/api";*/
+    var webBasePath = "http://localhost:8888/ylx/api";
     var ___system_navigation_config = {
             "nav": {
                 "home_index": "/",

@@ -79,3 +79,44 @@ Copyright (c) 2014 Daniel Eden
   -webkit-background-size: 240px 24px;
   background-size: 240px 24px;
  }
+
+ .error-mess {
+  clear: both;
+  background: #fff0f0;
+  border: 1px solid #ffd2d2;
+  height: 26px;
+  line-height: 26px;
+  margin-top: 10px;
+  color: #b74d46;
+  width: 100%;
+ }
+ .error-mess .error-icon {
+  display: inline-block;
+  background: url('./images/valid-icons.png') no-repeat 0 0;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: -4px 5px 0 5px;
+ }
+ .error-mess {
+  clear: both;
+  background: #fff0f0;
+  border: 1px solid #ffd2d2;
+  height: 26px;
+  line-height: 26px;
+  margin-top: 10px;
+  color: #b74d46;
+  width: 100%;
+ }
+ #code {
+  font-family:Arial;
+  font-style:italic;
+  font-weight:bold;
+  border:0;
+  letter-spacing:2px;
+  color:blue;
+  height: 32px;
+  background-color: #fff;
+  filter:chroma(color=#fff);
+  outline:none;
+ }
