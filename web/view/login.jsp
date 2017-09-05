@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <head>
     <%@ include file="/view/frame/head.jsp"%>
 
@@ -8,7 +7,6 @@
         .form-group {
             margin-bottom: 15px;
         }
-
         #code {
             font-family:Arial;
             font-style:italic;
@@ -21,6 +19,35 @@
             filter:chroma(color=#fff);
             outline:none;
         }
+
+        .error-mess {
+            clear: both;
+            background: #fff0f0;
+            border: 1px solid #ffd2d2;
+            height: 26px;
+            line-height: 26px;
+            margin-top: 10px;
+            color: #b74d46;
+            width: 100%;
+        }
+        .error-mess .error-icon {
+            display: inline-block;
+            background: url('../images/valid-icons.png') no-repeat 0 0;
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin: -4px 5px 0 5px;
+        }
+        .error-mess {
+            clear: both;
+            background: #fff0f0;
+            border: 1px solid #ffd2d2;
+            height: 26px;
+            line-height: 26px;
+            margin-top: 10px;
+            color: #b74d46;
+            width: 100%;
+        }
     </style>
 </head>
 <!-- END HEAD -->
@@ -29,7 +56,7 @@
 <body class="">
     <div class="row">
         <div class="col-xs-12">
-            <div id="page_alert_container">
+           <%-- <div id="page_alert_container">
                 <c:if test="${not empty SPRING_SECURITY_LAST_EXCEPTION.message }">
                     <div class="alert alert-warning alert-dismissible fade in">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -37,7 +64,7 @@
                         </button>
                         <strong>警告:</strong>${SPRING_SECURITY_LAST_EXCEPTION.message}</div>
                 </c:if>
-            </div>
+            </div>--%>
 
             <div class="row">
                 <div class="col-xs-4" style="margin-left: 39%;">
@@ -56,16 +83,18 @@
                                     <div class="col-xs-12">
                                         <form action="../main.jsp" method="post" role="form" id="form_users_signin">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="loginName" name="loginName" placeholder="请输入用户名">
+                                                <div class="item">
+                                                    <input type="text" class="form-control" id="username" name="username" placeholder="请输入用户名">
+                                                </div>
                                             </div>
                                             <div class="form-group">
-                                                <input type="password" class="form-control" id="loginPassword" name="loginPassword" placeholder="请输入密码">
+                                                <input type="password" class="form-control" id="password" name="password" placeholder="请输入密码">
                                             </div>
                                             <div class="form-group">
                                                 <input style="display: inline;width: 70%" type="text" class="form-control" id="captcha" name="captcha" placeholder="请输入验证码">
                                                 <input style="display: inline;width: 28%" type = "button" id="code" onclick="setCaptcha();"/>
                                             </div>
-                                            <div class="clearfix"></div>
+                                            <%--<div class="clearfix"></div>--%>
                                             <div class="form-group">
                                                 <button type="submit" class="btn btn-success form_submit_handle" style="width: 100%;background-color: #1ab394;">登录</button>
                                             </div>
@@ -81,6 +110,8 @@
         </div>
     </div>
     <script type="text/javascript" src="/js/__base.min.js"></script>
+    <script type="text/javascript" src="/js/plugins/jquery-validate/jquery.validate.js"></script>
+    <script type="text/javascript" src="/js/plugins/jquery-validate/additional-methods.js"></script>
     <script type="text/javascript">
         function createCaptcha(){
             var code = '';

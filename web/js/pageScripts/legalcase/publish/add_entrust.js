@@ -75,15 +75,15 @@ jQuery(function(){
         $('body').on('change', 'input[name$="_upload"]', function(e) {
             var _this = $(this);
             var fileName = $(this).val();
-            var $processBar = _this.parent().parent().prev('div');
-            $processBar.removeClass('hide');
+            /*var $processBar = _this.parent().parent().prev('div');*/
+            /*$processBar.removeClass('hide');*/
             if (!fileName.match('\\.(gif|png|jpe?g)$')) {
                 FOXKEEPER_UTILS.alert('warning', '只能上传图片格式，如：gif,png,jpg,jpeg!');
                 _this.val("");
                 $('#' + _this.attr("mid")).attr("src", "/images/nopica.png");
                 $('#' + _this.attr("uid")).val("");
 
-                $processBar.addClass('hide');
+                /*$processBar.addClass('hide');*/
                 return false;
             }
 
@@ -96,20 +96,20 @@ jQuery(function(){
             }
 
             if (fileName != "") {
-                return ajaxFileUpload(_this, _this.attr("id"), $processBar);
+                return ajaxFileUpload(_this, _this.attr("id"), null);
             }
         });
     }
 
     function ajaxFileUpload($file, fileId, $processBar) {
         $.ajaxFileUpload({
-            url: '/common/image/upload',
+            url: webBasePath+'/uploadFile',
             secureuri: false,
             fileElementId: fileId,
             dataType: 'json',
             type: "post",
             success: function(result) {
-                $processBar.addClass('hide');
+                /*$processBar.addClass('hide');*/
                 var result = JSON.parse(result);
                 if (result.code == 1) {
                     var url = result.data;
@@ -120,7 +120,7 @@ jQuery(function(){
                 }
             },
             error: function(e) {
-                $processBar.addClass('hide');
+                /*$processBar.addClass('hide');*/
                 FOXKEEPER_UTILS.alert('warning', '上传出错，请重试');
             }
         });
